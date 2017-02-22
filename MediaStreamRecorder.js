@@ -587,13 +587,6 @@ if (typeof MediaStream !== 'undefined') {
         };
     }
 }
-
-if (typeof location !== 'undefined') {
-    if (location.href.indexOf('file:') === 0) {
-        console.error('Please load this HTML file on HTTP or HTTPS.');
-    }
-}
-
 // Merge all other data-types except "function"
 
 function mergeProps(mergein, mergeto) {
